@@ -16,7 +16,7 @@ client.on('message', async (message) => {
         await message.reply(jenisSuratMessage);
     } else if (message.body === '1' || message.body === '2' || message.body === '3' || message.body === '4' || message.body === '5' || message.body === '6' || message.body === '7') {
         const nomorSurat = parseInt(message.body);
-        const detailSuratMessage = `Terima kasih! Silakan berikan detail tambahan yang dibutuhkan untuk surat nomor ${nomorSurat}.`;
+        const detailSuratMessage = `Terima kasih! Isardi Dama Iraga memang tampan .`;
         await message.reply(detailSuratMessage);
         
     } else {
